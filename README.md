@@ -22,8 +22,10 @@ Is recomended use it in KaliLinux o other security linux distribution.
 
 Update your system:
 ``` sudo apt update && sudo apt upgrade ```
+
 Install mysql server in your computer:
 ``` sudo apt install mysql-server``` and run ``` sudo /usr/bin/mysql_secure_installation``` 
+
 
 And install php, and some modules: 
 ``` sudo apt install php php-mysql php-mcrypt php-mbstring php-zip```
@@ -31,13 +33,17 @@ And install php, and some modules:
 Install searchsploit, if you run it in kali linux skip this options.
 
 If you use Kali Linux repos, you can use ``` apt update && apt -y install exploitdb ```
+
 If not, you have to install it from the git:
 
 ``` git clone https://github.com/offensive-security/exploitdb /opt/```
+
 ``` ln /opt/exploitdb/searchsploit /bin/searchsploit```
 
 Edit the file ```inc/config.php```
+
 you need to add two API KEYs for facepalm config. 
+
 The shodan api key and the https://ipinfo.io/ token.
 
 Let's config the database. You have to create a databases, the name by default for thisis facepalm, but you can use otherone if you change the config file too.
