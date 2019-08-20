@@ -21,18 +21,23 @@ Is recomended use it in KaliLinux o other security linux distribution.
 ## MANUAL INSTALATION
 
 Update your system:
+
 ``` sudo apt update && sudo apt upgrade ```
 
 Install mysql server in your computer:
+
 ``` sudo apt install mysql-server``` and run ``` sudo /usr/bin/mysql_secure_installation``` 
 
 
 And install php, and some modules: 
+
 ``` sudo apt install php php-mysql php-mcrypt php-mbstring php-zip```
 
 Install searchsploit, if you run it in kali linux skip this options.
 
-If you use Kali Linux repos, you can use ``` apt update && apt -y install exploitdb ```
+If you use Kali Linux repos, you can use 
+
+``` apt update && apt -y install exploitdb ```
 
 If not, you have to install it from the git:
 
